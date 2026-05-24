@@ -1,0 +1,62 @@
+project_id,category,estimate_amount,notes
+P-001,Design & Engineering,95000,Permit drawings engineering coordination and limited field verification.
+P-001,Permits & Fees,42000,Local permit fees and utility review allowances.
+P-001,Demolition,210000,Interior demolition of prior tenant improvements and selective slab patching.
+P-001,Mechanical,390000,HVAC duct modifications rooftop unit controls balancing and startup.
+P-001,Electrical,510000,Panel upgrades lighting power distribution POS rough-ins and low-voltage pathways.
+P-001,Plumbing,145000,Washroom upgrades breakroom rough-ins and fixture replacements.
+P-001,Interior Finishes,620000,Partitions ceilings flooring paint doors and millwork.
+P-001,Fixtures & Equipment,235000,Retail fixtures back-of-house shelving and owner-coordinated equipment support.
+P-001,Signage,78000,Exterior and interior signage coordination with landlord criteria.
+P-001,Commissioning,45000,MEP startup testing balancing and closeout documentation.
+P-001,Contingency,115000,Allowance for concealed existing conditions.
+P-002,Design & Engineering,82000,Renovation drawings mall design review and phased work plans.
+P-002,Permits & Fees,35000,Municipal permit and mall review fees.
+P-002,Demolition,185000,Night-shift selective demolition and temporary protection.
+P-002,Mechanical,280000,HVAC rework tied to mall base-building systems.
+P-002,Electrical,375000,Lighting controls service coordination and POS rough-ins.
+P-002,Plumbing,90000,Limited staff washroom refresh and fixture replacements.
+P-002,Interior Finishes,545000,Flooring ceilings paint storefront finishes and millwork repairs.
+P-002,Fixtures & Equipment,205000,Display fixtures and phased fixture relocation.
+P-002,Signage,64000,Mall-compliant storefront signage and wayfinding.
+P-002,Commissioning,32000,System testing after phased turnover.
+P-002,Contingency,67000,Allowance for access and phasing uncertainty.
+P-003,Design & Engineering,210000,Civil structural architectural and MEP shell design.
+P-003,Permits & Fees,125000,Entitlements utility connection fees and permit charges.
+P-003,Site Preparation,590000,Grading utilities paving stormwater and landscaping.
+P-003,Structural,830000,Foundations steel framing slab and roof deck.
+P-003,Mechanical,360000,Base-building HVAC equipment and distribution.
+P-003,Electrical,420000,Service gear site lighting panels and shell distribution.
+P-003,Plumbing,245000,Water sewer gas and shell fixture rough-ins.
+P-003,Interior Finishes,125000,Minimal shell-level interior finish allowance.
+P-003,Signage,40000,Monument sign infrastructure allowance.
+P-003,Commissioning,35000,Base building startup and closeout.
+P-003,Contingency,170000,General construction contingency.
+P-004,Design & Engineering,190000,Specialty design coordination for clinical rooms accessibility and inspection needs.
+P-004,Permits & Fees,65000,Building permit health review and inspection allowances.
+P-004,Demolition,175000,Selective demolition of prior office tenant improvements.
+P-004,Mechanical,510000,HVAC zoning ventilation controls and specialty exhaust coordination.
+P-004,Electrical,425000,Power distribution lighting low-voltage and backup power allowances.
+P-004,Plumbing,390000,Exam-room sinks sterilization area washrooms and fixture upgrades.
+P-004,Interior Finishes,650000,Partitions doors ceilings flooring casework and cleanable finishes.
+P-004,Fixtures & Equipment,255000,Clinical casework equipment supports and millwork.
+P-004,Commissioning,62000,System testing inspection support and closeout.
+P-004,Contingency,168000,Allowance for specialty and regulatory risk.
+P-005,Design & Engineering,130000,Design coordination for warehouse-to-office conversion.
+P-005,Permits & Fees,47000,Permit and zoning review allowances.
+P-005,Demolition,260000,Selective slab wall and interior demolition.
+P-005,Mechanical,520000,New office HVAC zones and warehouse ventilation adjustments.
+P-005,Electrical,485000,Lighting service distribution data pathways and office power.
+P-005,Plumbing,310000,New washrooms break areas and sanitary tie-ins.
+P-005,Interior Finishes,610000,Office partitions ceilings flooring paint doors and acoustic treatments.
+P-005,Fixtures & Equipment,175000,Breakroom fixtures office millwork and storage systems.
+P-005,Commissioning,43000,Testing balancing and owner training allowance.
+P-005,Contingency,135000,Allowance for unknown warehouse conditions.
+P-006,Design & Engineering,24000,Limited finish plans and lighting layout.
+P-006,Permits & Fees,9000,Minor permit and landlord review fees.
+P-006,Demolition,46000,Selective removal of flooring fixtures and limited ceiling areas.
+P-006,Electrical,72000,Lighting refresh and minor power relocations.
+P-006,Interior Finishes,198000,Paint flooring ceiling tile touch-ups and feature wall finishes.
+P-006,Fixtures & Equipment,94000,Display fixtures cash-wrap modifications and shelving.
+P-006,Signage,27000,Interior branding and exterior panel replacement.
+P-006,Contingency,15000,Small allowance for finish coordination.

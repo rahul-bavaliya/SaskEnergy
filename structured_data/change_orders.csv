@@ -1,0 +1,16 @@
+project_id,change_order_id,description,amount,driver,avoidable,notes
+P-001,CO-001,Upgrade existing electrical service and panels after late utility capacity review,164000,Existing condition discovered late,Partially,Landlord-provided utility information was incomplete and service capacity was not validated before final pricing.
+P-001,CO-002,Add temporary power and resequence electrical rough-in during service upgrade,52000,Schedule mitigation,Partially,Temporary work reduced overall delay but increased cost.
+P-001,CO-003,Premium flooring substitution in public sales area,21000,Owner preference,Yes,Could have been controlled with earlier finish signoff.
+P-002,CO-001,After-hours labor premium and extended supervision for mall access restrictions,276000,Access constraint,Partially,Mall loading dock hours freight elevator limits and noise windows were stricter than assumed.
+P-002,CO-002,Temporary partitions and repeated fixture moves for phased tenant operations,84000,Phasing requirement,Partially,Phasing plan was underdeveloped during estimating.
+P-002,CO-003,Additional storefront protection required by mall operations,31000,Landlord requirement,No,Requirement issued during mall review.
+P-003,CO-001,Stormwater revisions and soil export after civil review,118000,Site condition / permitting,Partially,Early geotechnical and civil assumptions were light for the site.
+P-003,CO-002,Added canopy steel requested during late design review,74000,Design development,Yes,Scope could have been frozen earlier.
+P-004,CO-001,Specialty exhaust controls and inspection corrections for treatment rooms,142000,Specialty systems / inspection,Partially,Inspection interpretation required controls and balancing changes.
+P-004,CO-002,Additional accessible washroom clearances and door hardware revisions,58000,Regulatory requirement,Partially,Accessibility review happened after pricing basis was set.
+P-004,CO-003,Upgrade clinical casework and wall protection,47000,Owner preference,Yes,Finish and casework standards were clarified late.
+P-005,CO-001,Additional slab trenching for washroom sanitary tie-ins,69000,Existing condition,Partially,Incomplete record drawings made underground routing uncertain.
+P-005,CO-002,Temporary heating during delayed rooftop unit delivery,38000,Procurement delay,No,Equipment lead time shifted after award.
+P-006,CO-001,Owner-selected premium flooring and accent wall finish upgrade,36000,Owner preference,Yes,Cosmetic upgrade approved after mockup review.
+P-006,CO-002,Add dimming controls for display lighting,17000,Owner preference,Yes,Lighting control expectations were not defined in the original scope.

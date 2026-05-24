@@ -1,0 +1,18 @@
+# Environment & secrets — never commit
+.env
+
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Output reports (generated at runtime)
+output/
+
+# OS files
+.DS_Store
+Thumbs.db

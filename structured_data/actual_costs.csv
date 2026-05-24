@@ -1,0 +1,58 @@
+project_id,actual_category,actual_amount,notes
+P-001,Design & Engineering,104000,Additional field verification visits after landlord utility records conflicted.
+P-001,Permits & Fees,44000,Close to estimate.
+P-001,Demolition,226000,More slab patching than carried in estimate.
+P-001,Mechanical,402000,Added controls coordination and balancing support.
+P-001,Electrical,692000,Variance driven by late service capacity upgrades and temporary power work.
+P-001,Plumbing,151000,Minor fixture substitutions.
+P-001,Interior Finishes,638000,Finish quantities aligned with estimate with small premium flooring change.
+P-001,Fixtures & Equipment,243000,Owner fixture vendor required added backing and blocking.
+P-001,Signage,82000,Additional landlord review revisions.
+P-001,Commissioning,51000,Extra electrical retesting after service work.
+P-001,Contingency,135000,Contingency consumed by utility coordination and re-sequencing.
+P-002,Design & Engineering,90000,Mall design review required added coordination.
+P-002,Permits & Fees,36000,Close to estimate.
+P-002,Demolition,213000,After-hours demolition and protection increased labor cost.
+P-002,Mechanical,294000,Mall tie-in windows were limited to overnight shutdowns.
+P-002,Electrical,411000,Phased temporary lighting and controls coordination.
+P-002,Plumbing,92000,Close to estimate.
+P-002,Interior Finishes,584000,Premium night-shift labor and phased rework.
+P-002,Fixtures & Equipment,229000,Fixture moves repeated across phases.
+P-002,Signage,65000,Close to estimate.
+P-002,Commissioning,41000,Multiple phased turnover inspections.
+P-002,Contingency,330000,Access restrictions and extended supervision drove overrun.
+P-003,Design & Engineering,220000,Minor design coordination additions.
+P-003,Permits & Fees,132000,Utility connection fees higher than allowance.
+P-003,Site Preparation,642000,Soil export and stormwater changes.
+P-003,Structural,875000,Steel escalation and added canopy steel.
+P-003,Mechanical,371000,Equipment pricing higher than allowance.
+P-003,Electrical,447000,Site lighting and switchgear cost increases.
+P-003,Plumbing,251000,Close to estimate.
+P-003,Interior Finishes,131000,Minor shell finish additions.
+P-003,Signage,42000,Close to estimate.
+P-003,Commissioning,38000,Close to estimate.
+P-003,Contingency,271000,Schedule extension and escalation impacts.
+P-004,Design & Engineering,208000,Specialty review rounds added design effort.
+P-004,Permits & Fees,74000,Inspection and review fees exceeded allowance.
+P-004,Demolition,181000,Close to estimate.
+P-004,Mechanical,548000,Added zoning and specialty exhaust coordination.
+P-004,Electrical,469000,Additional low-voltage pathways and inspection corrections.
+P-004,Plumbing,428000,More fixture rough-ins and infection-control-like detailing.
+P-004,Interior Finishes,671000,Cleanable wall protection and casework upgrades.
+P-004,Fixtures & Equipment,278000,Clinical casework revisions.
+P-004,Commissioning,82000,Additional inspection support and re-testing.
+P-004,Contingency,256000,Regulatory-driven rework and extended coordination.
+P-005,Design & Engineering,122000,Partial actuals only; design invoices received to date.
+P-005,Demolition,248000,Partial actuals only; demolition substantially complete.
+P-005,Mechanical,410000,Partial actuals only; equipment costs committed but not fully reconciled.
+P-005,Electrical,365000,Partial actuals only; rough-in costs received to date.
+P-005,Plumbing,198000,Partial actuals only; washroom rough-in invoices incomplete.
+P-005,Interior Finishes,210000,Partial actuals only; finishes underway.
+P-006,Design & Engineering,25000,Close to estimate.
+P-006,Permits & Fees,9000,Close to estimate.
+P-006,Demolition,48000,Minor added fixture removals.
+P-006,Electrical,76000,Added accent-lighting dimmers.
+P-006,Interior Finishes,221000,Owner-selected premium flooring and feature wall.
+P-006,Fixtures & Equipment,101000,Cash-wrap finish upgrade.
+P-006,Signage,30000,Added interior graphic package.
+P-006,Contingency,28000,Short extension for owner finish decisions.
