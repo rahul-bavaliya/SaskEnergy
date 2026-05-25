@@ -1,0 +1,99 @@
+========================================================================
+  AI-ASSISTED ESTIMATE SUPPORT REPORT
+  Generated: 2026-05-25 09:02
+========================================================================
+  New Project : Example New Project Scope Requiring an Estimate
+  Type        : Tenant build-out
+  Size        : 18,000 sq ft
+
+  COMPARABLE PROJECTS RETRIEVED:
+    1. P-001 — Suburban Plaza Retail Tenant Build-Out
+         Similarity: 0.623 | 17,500 sqft | $2,768,000 actual
+    2. P-004 — Medical Clinic Tenant Improvement
+         Similarity: 0.542 | 16,000 sqft | $3,195,000 actual
+    3. P-002 — Enclosed Mall Apparel Renovation
+         Similarity: 0.535 | 14,200 sqft | $2,385,000 actual
+    4. P-005 — Warehouse Office Conversion
+         Similarity: 0.502 | 22,000 sqft | actuals incomplete
+
+  GOVERNANCE WARNINGS:
+    ⚠ LOW CONFIDENCE: Best match similarity score is 0.62 (threshold: 0.8). Retrieved projects may not be closely comparable. Treat cost benchmarks as directional only.
+    ⚠ INCOMPLETE DATA: P-005 (Warehouse Office Conversion) has no final actual cost — reconciliation still in progress. Do not use for cost benchmarking. Lessons learned still applicable.
+
+────────────────────────────────────────────────────────────────────────
+  AI ANALYSIS
+  (grounded strictly on retrieved project data — citations required)
+────────────────────────────────────────────────────────────────────────
+
+⚠ HUMAN REVIEW REQUIRED — This AI analysis supports estimating decisions.
+It does not replace professional judgment, site verification, or quantity takeoff.
+
+## Estimating Support Report: Example New Project Scope
+
+**1. COMPARABLE PROJECT SUMMARY**
+
+The following projects are considered most relevant for benchmarking the Example New Project:
+
+*   **P-001 (Suburban Plaza Retail Build-Out):** This project is the strongest comparator due to its similar scope (tenant build-out), size (18,000 sq ft), and delivery model (lump sum). The project notes highlight a significant electrical capacity discovery issue, which is a potential risk for the Example New Project.
+*   **P-004 (Enclosed Mall Apparel Renovation):** This project is moderately relevant due to its retail build-out scope and size. However, the project type (mall retail) and the presence of significant occupied-site constraints (phased work, mall operations) make it less directly comparable than P-001. The incomplete actual cost data also introduces uncertainty.
+*   **P-002 (Warehouse Office Conversion):** This project is the least comparable due to its building type (warehouse/light industrial) and the inclusion of significant MEP modifications and operational considerations specific to that building type. While it shares some finish and HVAC categories, the overall scope and operational drivers differ significantly.
+
+**2. COST BENCHMARKS**
+
+Based on the comparable actuals, the estimated cost range for the Example New Project is **$2,485,000 to $3,195,000**, translating to an estimated cost of **$138.03 to $167.96 per square foot**.
+
+*   **Lower End ($2,485,000 / $142.00/sqft):** This benchmark is derived from P-001, which was a similar retail build-out with a strong comparator and a significant electrical capacity discovery issue. The actual cost was 11.4% higher than the estimate, indicating potential for cost overruns.
+*   **Higher End ($3,195,000 / $167.96/sqft):** This benchmark is derived from P-004, which was a retail renovation in a mall setting with significant occupied-site constraints. The actual cost was 21.7% higher than the estimate, highlighting the impact of coordination and operational complexities.
+
+**Projects Excluded from Benchmarking:**
+
+*   P-005 (Warehouse Office Conversion): Due to its different building type and incomplete actual cost data, this project is not suitable for benchmarking.
+
+**3. KEY COST DRIVERS**
+
+Based on the estimate vs actual category breakdowns in the comparable projects, the following categories typically drive cost for this project type:
+
+*   **Electrical:** Significant variance in P-001 and P-004, indicating potential for unexpected capacity requirements or coordination issues.
+*   **Demolition:** Moderate variance in P-001 and P-004, suggesting the complexity of demolition can impact cost.
+*   **Interior Finishes:** Moderate variance in P-001 and P-004, indicating the cost of finishes can be variable.
+*   **Mechanical:** Moderate variance in P-001 and P-004, suggesting MEP coordination is a key cost driver.
+*   **Commissioning:** Moderate variance in P-001 and P-004, highlighting the importance of including commissioning in the estimate.
+*   **Contingency:** Relatively high contingency in P-001 and P-004, reflecting the potential for unforeseen issues.
+
+**4. RISK FLAGS & CHANGE ORDER PATTERNS**
+
+The following change orders appeared in comparable projects and pose specific risks to the Example New Project:
+
+*   **Electrical Capacity Issues:** P-001 experienced a late electrical capacity discovery, leading to significant cost and schedule pressure. This is a high-risk area for the Example New Project, especially given the yet-to-be-confirmed electrical service capacity.
+*   **Mall Access Constraints:** P-004 faced challenges with after-hours work and limited loading dock access, resulting in additional labor and coordination costs. This is a significant risk for the Example New Project due to its unoccupied site and coordination requirements with adjacent tenants.
+*   **Owner Equipment Coordination:** P-002 highlighted the need for coordination of owner-provided equipment, which can lead to repeated rework. This is a potential risk for the Example New Project, even if owner-provided fixtures are excluded.
+*   **Specialty Systems:** P-004's project involved specialty exhaust controls, leading to increased costs and coordination. This is a potential risk for the Example New Project, depending on the specific requirements of the tenant build-out.
+
+**5. LESSONS LEARNED**
+
+The most actionable lessons from comparable projects directly applicable to the Example New Project are:
+
+*   **Validate Utility Capacity Early:** As highlighted in P-001, it is crucial to validate utility capacity (panel schedules, service size, transformer information, recent load data) *before* finalizing the estimate.
+*   **Account for Coordination with Adjacent Tenants:** The Example New Project requires coordination with adjacent tenants, as seen in P-001 and P-002. This coordination can lead to delays and additional costs.
+*   **Factor in Potential for Unexpected Demolition Issues:** While the scope includes selective demolition, unforeseen conditions can arise. P-001 and P-004 demonstrate the importance of including a reasonable contingency for demolition.
+*   **Be Prepared for Owner-Driven Changes:** Owner preferences and requirements can lead to change orders, as seen in P-001 and P-004. It is important to clearly define the owner's expectations and include allowances for potential changes.
+
+**6. CONFIDENCE & DATA GAPS**
+
+The following assumptions or gaps should be verified before finalizing the estimate:
+
+*   **Existing Electrical Service Capacity:** The capacity of the existing electrical service needs to be confirmed.
+*   **Landlord Design Review Requirements:** Understand the specifics of the landlord's design review process and potential coordination needs.
+*   **Municipal Permitting Requirements:** Verify the scope and timeline for municipal permitting.
+*   **Utility Review Requirements:** Confirm the requirements for utility reviews and any potential modifications needed.
+*   **Owner-Provided Fixtures and Equipment:** While excluded, understand the potential for owner-provided items that might require coordination or additional costs.
+*   **Specific MEP Requirements:** Obtain detailed specifications for HVAC, electrical, and plumbing systems.
+*   **Potential for Unexpected Conditions:** Conduct a thorough site visit to identify any potential unforeseen conditions that could impact the cost and schedule.
+*   **Detailed Scope of Work:** Ensure a complete and detailed scope of work is defined to avoid ambiguity and potential change orders.
+
+
+
+⚠ HUMAN REVIEW REQUIRED — This AI analysis supports estimating decisions.
+It does not replace professional judgment, site verification, or quantity takeoff.
+
+========================================================================
