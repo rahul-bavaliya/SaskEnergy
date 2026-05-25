@@ -1,6 +1,4 @@
 """
-embedder.py
------------
 Handles all embedding operations.
 
 Responsibilities:
@@ -8,11 +6,6 @@ Responsibilities:
   - Compute cosine similarity between vectors
   - Run ingestion: embed all historical projects at startup
 
-Why embeddings?
-  Text is converted into a list of numbers (vector) that captures
-  its *meaning*. Similar meanings produce similar vectors.
-  This enables semantic search — finding relevant projects even
-  when the exact words don't match.
 """
 from __future__ import annotations
 

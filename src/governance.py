@@ -1,21 +1,10 @@
 """
-governance.py
--------------
-Responsible AI and governance checks.
-
-Runs automated pre-flight checks before any output reaches the estimator.
-Implements the governance layer required by enterprise AI standards.
-
+Governance checks for retrieved projects.
 Checks performed:
   1. Low similarity score     — retrieved projects may not be comparable
   2. Incomplete actuals       — P-005 has no final cost (reconciliation pending)
   3. Size mismatch > 35%      — cost per sqft benchmarks need adjustment
   4. Old project (pre-2022)   — raw figures may understate current pricing
-
-In production:
-  - All warnings are logged with project ID, timestamp, user
-  - High-risk queries (multiple warnings) are routed to human review
-  - Audit trail is maintained for governance reporting
 """
 
 from __future__ import annotations

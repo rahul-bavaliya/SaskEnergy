@@ -1,85 +1,25 @@
 # Tool-Use Disclosure
 
----
-
-## AI Tools
-
 **Claude (Anthropic)**
-Used as a thinking and development partner throughout the assessment.
-Specifically helped with:
-- Talking through the initial problem framing and RAG architecture approach
-- Suggesting the hybrid retrieval pattern (structured filter + semantic search)
-- Reviewing code structure and module organisation across the `src/` package
+- Used for research and development
 - Drafting and iterating on the LLM system prompt in `synthesizer.py`
-
-All architectural decisions, data observations (P-005 incomplete actuals,
-P-006 and P-003 exclusion rationale, change order pattern analysis), and
-final judgment calls reflect my own review and understanding of the data.
-Every module was read, understood, and intentionally kept or modified before
-being included in the submission.
-
----
 
 ## APIs and Models
 
-**Nvidia API**
+**Nvidia NIM API** [Easily Access & Free to use]
 - `nvidia/nv-embed-v1` — embedding model 
+
 - `google/gemma-3n-e2b-it` — LLM used for two purposes:
   1. Structured field extraction from the new project brief (JSON output)
   2. Grounded synthesis of the estimating support report
-
-Both were selected for accessibility and cost-effectiveness during the
-assessment. In a production SaskEnergy deployment, these would be replaced
-with Azure OpenAI endpoints (Azure OpenAI `text-embedding-ada-002` and
-`gpt-4o`) to keep data within the enterprise boundary. The client
-initialisation is a one-line change — the rest of the pipeline is identical.
+- Production deployment:  Azure OpenAI endpointsto keep data within the enterprise boundary.
 
 ---
 
 ## Frameworks and Libraries
-
-| Tool | Version | Purpose |
-|---|---|---|
-| Python | 3.11 | Core language |
-| `openai` (SDK) | latest | API client for Nvidia-compatible endpoint |
-| `python-dotenv` | latest | Secure API key loading from `.env` |
-| Standard library (`csv`, `json`, `re`, `pathlib`, `math`) | built-in | Data loading, parsing, vector math |
-
-No external vector database, ML framework, or orchestration library
-(e.g. LangChain, LlamaIndex) was used. All retrieval, embedding, and
-similarity logic was implemented from scratch to keep the pipeline
-transparent, portable, and fully explainable during the interview.
-
----
-
-## Other Resources
-
-**Assessment data package** — the synthetic project data (CSVs and markdown
-files) provided by SaskEnergy was used as-is. No external datasets,
-pre-built indexes, or third-party project data were introduced.
-
-**Python documentation and OpenAI API reference** — consulted for standard
-library usage and API request formatting.
-
----
-
-## What Reflects My Own Work and Judgment
-
-- Reading and analysing all 6 historical projects to identify which were
-  valid comparators and which were not (P-006, P-003 exclusions)
-- Identifying P-005's incomplete actuals as a governance risk and designing
-  the specific control around it
-- Deciding to implement hybrid retrieval rather than semantic search alone,
-  based on understanding the data's vocabulary overlap problem
-- Choosing to implement cosine similarity from scratch rather than importing
-  a library, to keep the logic fully visible and explainable
-- Structuring the system prompt in `synthesizer.py` to enforce grounding,
-  citation by project ID, and the mandatory human review statement
-- All governance thresholds (similarity floor 0.80, escalation cutoff 2022,
-  size mismatch tolerance 35%) were set based on my own reading of the data
-- The decision to use LLM-based field extraction over regex for the project
-  brief parser, and the reasoning behind it
-
----
-
-*Submitted by Rahul Bavaliya — SaskEnergy Specialist, AI Pre-Interview Assessment*
+- Python- 3.11 | Core language
+- IDE | Antigravity
+- `openai` (SDK) | API client for Nvidia-compatible endpoint
+- `python-dotenv` | Secure API key loading from `.env`
+- Standard library (`csv`, `json`, `re`, `pathlib`, `math`)
+- No external vector database was used.

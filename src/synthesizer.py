@@ -1,6 +1,4 @@
 """
-synthesizer.py
---------------
 LLM synthesis layer — the 'G' in RAG (Retrieval-Augmented Generation).
 
 Responsibilities:
@@ -87,9 +85,7 @@ Please provide a structured estimating support report with these six sections:
 
 def synthesize(new_project: NewProjectBrief, context: str) -> str:
     """
-    Call the LLM with the retrieved context and new project brief.
-
-    The LLM is grounded by:
+       The LLM is grounded by:
       1. System prompt rules (no hallucination, always cite)
       2. Context block that contains ONLY real retrieved project data
       3. Low temperature (0.2) for consistent, factual output
@@ -97,17 +93,17 @@ def synthesize(new_project: NewProjectBrief, context: str) -> str:
     Returns the full LLM response as a string.
     """
     user_prompt = f"""
-NEW PROJECT REQUIRING ESTIMATE:
-Name        : {new_project.name}
-Type        : {new_project.project_type}
-Size        : {new_project.square_feet:,} sq ft
-Description : {new_project.description}
+   NEW PROJECT REQUIRING ESTIMATE:
+   Name        : {new_project.name}
+   Type        : {new_project.project_type}
+   Size        : {new_project.square_feet:,} sq ft
+   Description : {new_project.description}
 
-COMPARABLE HISTORICAL PROJECTS (your only allowed knowledge source):
-{context}
+   COMPARABLE HISTORICAL PROJECTS (your only allowed knowledge source):
+   {context}
 
-{OUTPUT_SECTIONS}
-"""
+   {OUTPUT_SECTIONS}
+   """
 
     print("[Synthesizer] Calling LLM for grounded analysis...")
     response = client.chat.completions.create(

@@ -1,7 +1,5 @@
 """
-models.py
----------
-Data models for the AI-Assisted Estimate Support Tool.
+
 
 Contains:
   - Project      : one historical construction project (structured + unstructured)

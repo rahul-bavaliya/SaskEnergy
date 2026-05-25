@@ -1,6 +1,5 @@
 """
-loader.py
----------
+
 Loads all data from real files into Project objects.
 
 Responsibilities:
@@ -8,7 +7,7 @@ Responsibilities:
   - Join them by project_id
   - Read markdown files from project_documents/
   - Read the new project brief from new_project/ using LLM extraction
-  - Return typed Project and NewProjectBrief objects
+
 
 No embedding happens here — that lives in embedder.py.
 """

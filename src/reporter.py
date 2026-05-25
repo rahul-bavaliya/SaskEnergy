@@ -86,7 +86,7 @@ def save_report(report: str) -> Path:
     Returns the path where it was saved.
     """
     OUTPUT_DIR.mkdir(exist_ok=True)
-    timestamp = datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
+    timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
     output_path = OUTPUT_DIR / f"estimate_report_{timestamp}.txt"
     output_path.write_text(report, encoding="utf-8")
     return output_path

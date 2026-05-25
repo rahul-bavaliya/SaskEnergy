@@ -41,7 +41,7 @@ example_new_project_scope(.md)
 
 ---
 
-## 4. Key Technical Decisions
+## 3. Key Technical Decisions
 
 | Decision           | Choice                   |
 | ------------------ | ------------------------ |
@@ -52,7 +52,7 @@ example_new_project_scope(.md)
 
 ---
 
-## 5. Risks and Controls
+## 4. Risks and Controls
 
 | Risk                      | Control                                                                                                                                  |
 | ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
@@ -65,7 +65,7 @@ example_new_project_scope(.md)
 
 ---
 
-## 6. Project Structure
+## 5. Project Structure
 
 ```
 ai_estimate_tool/
@@ -89,7 +89,7 @@ ai_estimate_tool/
 
 ---
 
-## 7. Running the Tool
+## 6 Running the Tool
 
 ```bash
 # Create and activate virtual environment
@@ -98,7 +98,7 @@ source venv/bin/activate          # Mac/Linux
 venv\Scripts\activate             # Windows
 
 # Install dependencies
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 
 # Add API key
 echo "NVIDIA_API_KEY=sk-**********" > .env
@@ -111,7 +111,7 @@ Report is printed to console and saved to `output/estimate_report_YYYYMMDD_HHMMS
 
 ---
 
-## 8. Tools Used
+## 7. Tools Used
 
 | Tool                                                           | Purpose                                  |
 | -------------------------------------------------------------- | ---------------------------------------- |

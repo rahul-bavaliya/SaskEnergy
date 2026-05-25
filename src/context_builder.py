@@ -1,16 +1,7 @@
 """
-context_builder.py
-------------------
-Formats retrieved historical projects into a structured context block
-that gets injected into the LLM prompt.
-
-This is the critical anti-hallucination mechanism in RAG.
 
 Key principle:
   The LLM is only allowed to answer from this context block.
-  It cannot draw on its training data for project-specific figures.
-  Every number, lesson, and risk flag in the LLM's response must
-  be traceable back to a real project in this context.
 
 What we include per project:
   - Structured metrics: cost, variance, sqft rate, schedule

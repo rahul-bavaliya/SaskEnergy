@@ -1,9 +1,6 @@
 """
-retriever.py
-------------
-Hybrid retrieval pipeline: structured filter + semantic search.
 
-This is the heart of the RAG system.
+Hybrid retrieval pipeline: structured filter + semantic search.
 
 Two-step approach:
   Step 1 — Structured filter (SQL-style WHERE clause)
@@ -13,13 +10,6 @@ Two-step approach:
   Step 2 — Semantic search (cosine similarity on embeddings)
             Ranks filtered candidates by meaning similarity to the query.
             Finds relevant projects even when exact words don't match.
-
-Why hybrid and not just one or the other?
-  - Semantic only: a cosmetic refresh (P-006) could outscore a full
-    build-out just because vocabulary overlaps.
-  - Structured only: misses projects with similar scope but slightly
-    different metadata (e.g. "Renovation" vs "Tenant build-out").
-  - Together: metadata enforces business rules, semantics refines quality.
 """
 
 from __future__ import annotations
