@@ -68,7 +68,7 @@ example_new_project_scope(.md)
 ## 5. Project Structure
 
 ```
-ai_estimate_tool/
+SaskEnergy/
 ├── main.py                  ← Entry point
 ├── requirements.txt
 ├── .env                     ← OPENAI_API_KEY (never committed)
