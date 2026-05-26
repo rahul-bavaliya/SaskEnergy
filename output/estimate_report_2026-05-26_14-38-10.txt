@@ -1,0 +1,95 @@
+========================================================================
+  AI-ASSISTED ESTIMATE SUPPORT REPORT
+  Generated: 2026-05-26 14:38
+========================================================================
+  New Project : Example New Project Scope Requiring an Estimate
+  Type        : Tenant build-out
+  Size        : 18,000 sq ft
+
+  COMPARABLE PROJECTS RETRIEVED:
+    1. P-001 — Suburban Plaza Retail Tenant Build-Out
+         Similarity: 0.627 | 17,500 sqft | $2,768,000 actual
+    2. P-004 — Medical Clinic Tenant Improvement
+         Similarity: 0.544 | 16,000 sqft | $3,195,000 actual
+    3. P-002 — Enclosed Mall Apparel Renovation
+         Similarity: 0.536 | 14,200 sqft | $2,385,000 actual
+    4. P-005 — Warehouse Office Conversion
+         Similarity: 0.504 | 22,000 sqft | actuals incomplete
+
+  GOVERNANCE WARNINGS:
+    ⚠ LOW CONFIDENCE: Best match similarity score is 0.63 (threshold: 0.8). Retrieved projects may not be closely comparable. Treat cost benchmarks as directional only.
+    ⚠ INCOMPLETE DATA: P-005 (Warehouse Office Conversion) has no final actual cost — reconciliation still in progress. Do not use for cost benchmarking. Lessons learned still applicable.
+
+────────────────────────────────────────────────────────────────────────
+  AI ANALYSIS
+  (grounded strictly on retrieved project data — citations required)
+────────────────────────────────────────────────────────────────────────
+
+## Estimating Support Report: Example New Project Scope
+
+**1. COMPARABLE PROJECT SUMMARY**
+
+The following projects are considered most relevant for benchmarking the Example New Project Scope:
+
+* **P-001 (Suburban Plaza Retail Build-Out):** This project is the strongest comparator due to its similar scope (tenant build-out in a retail setting), comparable size (18,000 sq ft), and the inclusion of selective interior demolition. The project notes highlight a significant variance in electrical costs, which is a key consideration for the Example New Project.
+* **P-004 (Enclosed Mall Apparel Renovation):** This project is moderately relevant due to its retail build-out nature and the inclusion of MEP upgrades. However, the project type (warehouse office conversion) and the presence of significant incomplete actuals make it a less reliable benchmark for cost estimation. The project notes highlight challenges with occupied-site coordination and utility uncertainties.
+* **P-002 (Warehouse Office Conversion):** This project is less comparable due to its building type (warehouse/light industrial) and the presence of incomplete actuals. While it shares some overlap in MEP and finish categories, the operational drivers and potential for different cost drivers make it a weaker comparator.
+
+**2. COST BENCHMARKS**
+
+Based on the comparable actuals, the estimated cost range for the Example New Project is **$2,485,000 to $3,195,000**, with an estimated cost per square foot ranging from **$142.00 to $167.96**.
+
+* **Reasoning:**
+    * **P-001:** The actual cost of $2,768,000 for a similar retail build-out (17,500 sq ft) with a $142.00/sqft estimate provides a high-end benchmark. The $237,000 in change orders and $11.4% variance indicate potential for cost overruns, particularly in areas like electrical.
+    * **P-004:** The actual cost of $2,385,000 for a similar retail renovation (14,200 sq ft) with a $123.41/sqft estimate provides a lower-end benchmark. The $391,000 in change orders and 21.7% variance suggest potential for cost overruns, particularly in areas like access constraints and utility coordination.
+    * **P-002:** The actual cost of $2,385,000 for a warehouse office conversion (22,000 sq ft) with a $123.41/sqft estimate, with incomplete actuals, provides a less reliable benchmark.
+
+**Projects excluded from benchmarking:** P-005 (Warehouse Office Conversion) due to incomplete actuals and different project type.
+
+**3. KEY COST DRIVERS**
+
+Based on the estimate vs actual category breakdowns in the comparable projects, the following categories typically drive cost for this project type:
+
+* **Electrical:** Significant variance observed in P-001, indicating potential for substantial cost fluctuations.
+* **Demolition:** Moderate variance in P-001 and P-004, suggesting this is a common cost driver.
+* **Interior Finishes:** Moderate variance in P-001 and P-004, indicating a significant cost component.
+* **Mechanical:** Moderate variance in P-001 and P-004, suggesting a notable cost driver.
+* **Change Orders:** Significant variance in P-001 and P-004, highlighting the potential for unexpected costs.
+* **Commissioning:** Moderate variance in P-001, indicating a potential cost component.
+* **Contingency:** Significant variance in P-001, suggesting a need for a robust contingency allowance.
+
+**4. RISK FLAGS & CHANGE ORDER PATTERNS**
+
+The following change orders appeared in comparable projects and pose specific risks to the Example New Project:
+
+* **Electrical Capacity Issues:** P-001 experienced a late discovery of insufficient electrical capacity, leading to significant cost and schedule pressure. This is a high-risk area for the Example New Project, given the yet-to-be-confirmed electrical service capacity.
+* **Access Constraints:** P-004 faced challenges with after-hours work and limited loading dock access, resulting in increased labor and coordination costs. This is a potential risk for the Example New Project, especially given the coordination required for adjacent plaza tenants.
+* **Utility Coordination:** P-001's reliance on landlord-provided utility information proved inaccurate, leading to costly upgrades. This highlights the importance of verifying utility capacity before finalizing estimates.
+* **Owner Equipment Coordination:** P-001 encountered challenges with owner-provided fixtures and equipment, requiring additional coordination and potentially rework. This is a potential risk for the Example New Project.
+
+**5. LESSONS LEARNED**
+
+The most actionable lessons from comparable projects directly applicable to the Example New Project brief include:
+
+* **Validate Utility Capacity Early:** As highlighted in P-001, it is crucial to validate utility capacity before finalizing estimates, not just during construction. Request detailed panel schedules, service size, and recent load data.
+* **Account for Low-Voltage Pathways and Coordination:** P-001 and P-002 underscore the need to include a clear allowance for low-voltage pathways, security rough-ins, and coordination for owner equipment.
+* **Anticipate Owner-Specific Requirements:** P-001 and P-002 demonstrate that owner-specific requirements (e.g., security vendor requirements, specialized finishes) can lead to unexpected costs and coordination challenges.
+* **Plan for Phased Construction and Coordination:** P-002 highlights the importance of planning for phased construction and coordinating with adjacent tenants, especially in occupied sites.
+
+**6. CONFIDENCE & DATA GAPS**
+
+The following assumptions or gaps should be verified before finalizing the estimate:
+
+* **Electrical Service Capacity:** The confirmed capacity of the existing electrical service is critical and should be verified with the owner.
+* **Existing Rooftop HVAC Reusability:** While assumed reusable, confirmation of the HVAC units' condition and suitability for modification is needed.
+* **Owner-Provided Fixtures and Equipment:** The extent of owner-provided fixtures and equipment and their impact on the scope should be clarified.
+* **Detailed Utility Requirements:** Obtain detailed specifications for all utility connections (water, sewer, gas, telecommunications).
+* **Specific Signage Requirements:** Clarify the exact signage requirements and coordination needs with the owner.
+* **Detailed Scope of Work:** Ensure a complete and unambiguous scope of work is defined, including all required finishes, fixtures, and equipment.
+* **Change Order Potential:** While change orders are common, a clear understanding of the potential for scope changes should be established.
+
+
+
+⚠ HUMAN REVIEW REQUIRED — This AI analysis supports estimating decisions. It does not replace professional judgment, site verification, or quantity takeoff.
+
+========================================================================

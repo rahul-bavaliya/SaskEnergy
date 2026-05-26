@@ -59,7 +59,7 @@ example_new_project_scope(.md)
 | **Hallucination**         | LLM restricted to retrieved context only. All claims must cite a project ID.                                                             |
 | **Low-quality retrieval** | Governance layer flags similarity scores below 0.80 before output is shown.                                                              |
 | **Incomplete data**       | P-005 auto-detected and flagged — excluded from cost benchmarking, lessons learned only.                                                 |
-| **Cost escalation**       | Projects completed before 2022 flagged with escalation warning in the report.                                                            |
+| **Cost escalation**       | Projects completed before 2017 flagged with escalation warning in the report.                                                            |
 | **Overreliance**          | Mandatory human review statement on every report. Tool supports judgment — never replaces it.                                            |
 | **Data privacy**          | Production deploys on Azure AI Search within enterprise boundary. Replaced with Azure OpenAI endpoint — no data leaves the organisation. |
 

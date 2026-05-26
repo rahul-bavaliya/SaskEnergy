@@ -14,7 +14,7 @@ from src.models import Project, NewProjectBrief
 # Thresholds — centralised here so they're easy to tune
 SIMILARITY_THRESHOLD   = 0.80   # below this → low confidence warning
 SIZE_MISMATCH_THRESHOLD = 0.35  # above this → size mismatch warning
-ESCALATION_YEAR        = 2022   # projects older than this → escalation warning
+ESCALATION_YEAR        = 2017   # projects older than this → escalation warning
 
 
 def run_governance_checks(

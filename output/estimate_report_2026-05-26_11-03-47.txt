@@ -1,0 +1,107 @@
+========================================================================
+  AI-ASSISTED ESTIMATE SUPPORT REPORT
+  Generated: 2026-05-26 11:03
+========================================================================
+  New Project : Example New Project Scope Requiring an Estimate
+  Type        : Tenant build-out
+  Size        : 18,000 sq ft
+
+  COMPARABLE PROJECTS RETRIEVED:
+    1. P-001 — Suburban Plaza Retail Tenant Build-Out
+         Similarity: 0.623 | 17,500 sqft | $2,768,000 actual
+    2. P-004 — Medical Clinic Tenant Improvement
+         Similarity: 0.542 | 16,000 sqft | $3,195,000 actual
+    3. P-002 — Enclosed Mall Apparel Renovation
+         Similarity: 0.535 | 14,200 sqft | $2,385,000 actual
+    4. P-005 — Warehouse Office Conversion
+         Similarity: 0.502 | 22,000 sqft | actuals incomplete
+
+  GOVERNANCE WARNINGS:
+    ⚠ LOW CONFIDENCE: Best match similarity score is 0.62 (threshold: 0.8). Retrieved projects may not be closely comparable. Treat cost benchmarks as directional only.
+    ⚠ INCOMPLETE DATA: P-005 (Warehouse Office Conversion) has no final actual cost — reconciliation still in progress. Do not use for cost benchmarking. Lessons learned still applicable.
+
+────────────────────────────────────────────────────────────────────────
+  AI ANALYSIS
+  (grounded strictly on retrieved project data — citations required)
+────────────────────────────────────────────────────────────────────────
+
+## Estimating Support Report: Example New Project Scope
+
+**1. COMPARABLE PROJECT SUMMARY**
+
+The most relevant comparable projects are P-001, P-004, and P-005.
+
+*   **P-001 (Suburban Plaza Retail Build-Out):** This project is the strongest comparator due to its similar scope (tenant build-out), size (18,000 sq ft), and complexity (high). The project notes highlight a strong retail build-out with lessons learned around electrical capacity discovery and owner equipment coordination, which are directly relevant to the new project.
+*   **P-004 (Enclosed Mall Apparel Renovation):** This project is moderately relevant. While it's a retail renovation within a mall, the key difference is the occupied site and the significant impact of mall access constraints. The project notes provide insights into managing occupied-site coordination and the challenges of long-lead equipment procurement.
+*   **P-005 (Warehouse Office Conversion):** This project is less directly comparable due to its building type (warehouse/light industrial) and the different operational drivers compared to a retail build-out. However, it offers lessons on existing-building uncertainty, washroom upgrades, and HVAC zoning.
+
+Less comparable projects include P-002 (Medical Clinic Tenant Improvement) due to its different building type and specific regulatory requirements.
+
+**2. COST BENCHMARKS**
+
+Based on comparable actuals:
+
+*   **Estimated Cost Range:** The estimated cost range for this project is **$2,485,000 to $3,195,000**.
+*   **Estimated Cost per Sqft:** The estimated cost per sqft is **$138.03 to $167.96**.
+
+**Reasoning:**
+
+*   **P-001:** The actual cost of $2,768,000 for a 17,500 sq ft retail build-out with a $142.00/sqft estimate provides a strong benchmark. The $11.4% variance suggests potential cost overruns, which should be considered.
+*   **P-004:** The actual cost of $2,385,000 for a 14,200 sq ft retail renovation with a $138.03/sqft estimate is a lower bound benchmark. The $21.7% variance indicates potential cost overruns.
+*   **P-005:** The actual cost of $2,385,000 for a 22,000 sq ft warehouse office conversion with a $123.41/sqft estimate is a higher bound benchmark. The incomplete actuals make it less reliable for a direct comparison, but the $110,000 variance suggests potential cost overruns.
+
+**Excluded Projects:** Projects with "INCOMPLETE" actuals (P-004) are excluded from direct cost benchmarking.
+
+**3. KEY COST DRIVERS**
+
+Based on the estimate vs actual category breakdowns in the comparable projects, the key cost drivers for this project type are likely to be:
+
+*   **Electrical:** Significant variance in P-001 and P-004, indicating potential for unexpected electrical work or capacity upgrades.
+*   **Demolition:** Moderate variance in P-001 and P-004, suggesting potential for more extensive demolition than initially anticipated.
+*   **Interior Finishes:** Moderate variance in P-001 and P-004, indicating potential for changes in finish selections or unexpected work.
+*   **Mechanical:** Moderate variance in P-001 and P-004, suggesting potential for HVAC modifications or unexpected system requirements.
+*   **Change Orders:** A significant number of change orders in P-001 and P-004, indicating potential for scope changes and associated costs.
+
+**4. RISK FLAGS & CHANGE ORDER PATTERNS**
+
+**Change Order Patterns:**
+
+*   **Electrical:** Multiple change orders in P-001 and P-004 related to electrical capacity, panel upgrades, and resequencing.
+*   **Demolition:** Change orders in P-001 and P-004 related to unexpected conditions or coordination issues.
+*   **Access Constraints:** Significant change orders in P-004 related to after-hours work and limited access.
+
+**Risk Flags:**
+
+*   **Utility Capacity:** The new project's reliance on existing electrical service capacity needs careful verification. The late discovery of capacity issues in P-001 is a significant risk.
+*   **Coordination with Adjacent Tenants:** Coordination with adjacent tenants is a potential source of delays and cost overruns.
+*   **Owner-Provided Fixtures & Equipment:** The exclusion of owner-provided items requires careful consideration of coordination and potential for additional costs.
+*   **Mall Access (if applicable):** If the project is located within a mall, access constraints and coordination with mall operations pose a significant risk.
+*   **Existing Building Conditions:** As seen in P-005, unexpected conditions in the existing building can lead to costly rework.
+
+**5. LESSONS LEARNED**
+
+*   **Early Utility Capacity Validation:** As highlighted in P-001, it is crucial to validate utility capacity *before* finalizing the estimate, not just during construction.
+*   **Coordination with Adjacent Tenants:** Proactive coordination with adjacent tenants is essential to avoid delays and disruptions.
+*   **Owner Equipment Coordination:** Clear coordination and allowance for owner-provided equipment and fixtures are necessary.
+*   **Mall Access Management:** If the project is in a mall, develop a detailed plan for managing access constraints and coordinating with mall operations.
+*   **Unexpected Building Conditions:** Allocate a contingency for potential unexpected conditions in the existing building.
+*   **Security Vendor Coordination:** Be prepared for potential coordination with security vendors, as seen in P-002, which can lead to unexpected delays.
+
+**6. CONFIDENCE & DATA GAPS**
+
+**Assumptions & Gaps to Verify:**
+
+*   **Existing Electrical Service Capacity:** Confirm the capacity of the existing electrical service and the feasibility of upgrades.
+*   **Utility Review:** Obtain a detailed utility review from the owner to understand capacity limitations.
+*   **Existing Building Conditions:** Conduct a thorough site survey to identify any potential issues with the existing building.
+*   **Owner-Provided Fixtures & Equipment:** Clarify the scope of owner-provided items and their impact on the estimate.
+*   **Coordination Requirements:** Confirm the level of coordination required with adjacent tenants and mall operations (if applicable).
+*   **Scope of Work:** Finalize the scope of work with the owner to avoid any ambiguity.
+*   **Detailed MEP Drawings:** Ensure detailed MEP drawings are available for accurate cost estimation.
+*   **Change Order Process:** Understand the owner's change order process and potential for future changes.
+
+
+
+⚠ HUMAN REVIEW REQUIRED — This AI analysis supports estimating decisions. It does not replace professional judgment, site verification, or quantity takeoff.
+
+========================================================================
